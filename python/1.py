@@ -5,6 +5,13 @@
 
 def main():
     # 이곳에 코드를 작성해주세요!
+    a =int(input())
+    if 100<=a<=999:
+        reversed_a=str(a)[::-1]
+        print(reversed_a)
+    else:
+        print('세 자리 정수를 입력하세요')
+        
 
     return
 
