@@ -5,16 +5,14 @@
 
 def main():
     # 이곳에 코드를 작성해주세요!
-    hour=int(input("시간을 입력하세요: "))
+    hour=int(input())
     if 0 <= hour <= 23:
         if hour < 12:
-            print('오전')
+            print('AM')
         else:
-            print('오후')
-    else:
-        print('잘못된 입력입니다.')
-    return
+            print('PM')
 
+    return
 
 if __name__ == '__main__':
     main()

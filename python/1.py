@@ -11,7 +11,6 @@ def main():
         print(reversed_a)
     else:
         print('세 자리 정수를 입력하세요')
-        
 
     return
 
